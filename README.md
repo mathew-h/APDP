@@ -12,27 +12,3 @@ Requests the user to select data files.
 
 ### Data Processor Class
 Passes transformed data files through series of utils and calculations to draw meaningful insights. 
-
-project/
-│
-├── data/
-│   ├── raw/                # Raw zipped CSV files
-│   ├── processed/          # Processed data files
-│   └── output/             # Output files for visualization
-│
-├── src/
-│   ├── __init__.py
-│   ├── extract.py          # Extraction logic
-│   ├── transform.py        # Transformation logic
-│   ├── load.py             # Loading logic
-│   ├── utils.py            # Utility functions
-|   ├── calculators.py      # Calculators for respective test types
-│   └── main.py             # Main script to run the ETL process
-│
-├── tests/                  # Unit tests WIP
-│   ├── __init__.py
-│   ├── test_extract.py
-│   ├── test_transform.py
-│   └── test_load.py
-│
-└── requirements.txt        # Dependencies
